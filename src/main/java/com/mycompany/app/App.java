@@ -20,7 +20,7 @@ public class App
 
         smallVehicle.setType("Motorcycle");
         smallVehicle.setBrand("Toyota");
-        smallVehicle.setWheelAmount(3);
+        smallVehicle.setWheelAmount(4);
 
         return smallVehicle.getType() + SPACE + smallVehicle.getBrand() + SPACE + smallVehicle.getWheelAmount();
     }
